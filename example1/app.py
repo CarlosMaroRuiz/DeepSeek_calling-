@@ -1,4 +1,4 @@
-from core.DeepSeekAgent import DeepSeekAgent
+from src.deepseek_agent import DeepSeekAgent
 from example1.schemas.schema_excel import schema
 from example1.tools.extract_information_excel import extract_information_excel
 

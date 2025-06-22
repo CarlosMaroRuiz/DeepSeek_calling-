@@ -2,7 +2,7 @@ import json
 import logging
 from typing import List, Dict, Any, Optional, Callable
 from openai import OpenAI
-from core.config.Config import config
+from .config.Config import config
 
 class DeepSeekAgent:
     def __init__(self):
